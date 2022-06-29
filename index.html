@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>       
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>Шиблино 28.06.2022</title>
+        <link rel="shortcut icon" href="icons/favicon-home8.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Overpass|Open+Sans|Inter|Pacifico|Rubik|Nunito+Sans|
+                    Neucha|Ruslan+Display" rel="stylesheet">
+    </head>    
+    <body>
+        <style>
+            @import url(styles/body.css);
+        </style>               
+        <header></header>
+        <style> @import url(styles/header.css); </style>
+        <div class="bhead">
+            <div class="left">Добро пожаловать на информационный портал деревни Шиблино</div>
+            <div class="middle"></div>
+            <div class="right" id="shiblino">ШИБЛИНО</div>
+        </div>
+        <nav>
+            <style>
+                @import url(styles/nav.css);
+            </style>
+            <!--a href="#" class="disabled" title="Начальная страница">
+               <img src="icons/favicon-home8.png" alt="" class="home">
+            </a-->
+            <a href="#" title="ТОП МЕНЮ">
+                <button class="burger-top"> ☰ </button>
+            </a>
+            <div class="dropdown">
+                <button class="dropbtn"> Информация <i class="arrow down"></i> </button>
+                <div class="dropdown-content">
+                    <a href="#">Историческая справка</a>
+                    <a href="#">Окружение</a>
+                    <a href="#">Население</a>
+                    <a href="#">Карта онлайн</a>
+                    <a href="#">Вопрос - ответ</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"> Новости <i class="arrow down"></i> </button>
+                <div class="dropdown-content">
+                    <a href="#">Шиблино NEWS</a>
+                    <a href="#">Кимрские сплетни</a>
+                    <a href="#">Российский шум</a>
+                    <a href="#">Мировые проблемы</a>
+                    <a href="#">Понемногу отовсюду</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Природа <i class="arrow down"></i> </button>
+                <div class="dropdown-content">
+                    <a href="#" class="">Ближайшее соседство</a>
+                    <a href="#">Флора растения вокруг</a>
+                    <a href="#">Фауна местные обитатели</a>
+                    <a href="#" class="disabled">Климатические особенности</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Садоводство <i class="arrow down"></i> </button>
+                <div class="dropdown-content">
+                    <a href="#">Кустарники ягодные</a>
+                    <a href="#">Деревья плодовые</a>
+                    <a href="#">Овощные грядки</a>
+                    <a href="#">Тепличные дела</a>
+                    <a href="#">Инсрументы</a>
+                    <a href="#">Личный опыт</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Фотогалерея <i class="arrow down"></i> </button>
+                <div class="dropdown-content">
+                    <a href="#">Пейзажи</a>
+                    <a href="#">Времена года</a>
+                    <a href="#">Изображения в лицах</a>
+                    <a href="#">Деревенские будни</a>
+                    <a href="#">Не верь глазам своим</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Экология <i class="arrow down"></i> </button>
+                <div class="dropdown-content">
+                    <a href="#">Бытовые отходы</a>
+                    <a href="#">Сжигание мусора</a>
+                    <a href="#">Природопользование</a>
+                    <a href="#">Охрана природы</a>
+                    <a href="#">Убывающее плодородие</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Полезные ресурсы <i class="arrow down"></i> </button>
+                <div class="dropdown-content">
+                    <a href="http://crbkimry.ru/" target="_blank">Медицина и лекарства</a>
+                    <a href="#">Сельсовет Устиново</a>
+                    <a href="#">Транспорт</a>
+                    <a href="#">Почта РФ</a>
+                    <a href="http://www.kimryadm.ru" target="_blank">Администрация района</a>
+                    <a href="#">Электросети </a>
+                    <a href="#">Газовые сети</a>
+                    <a href="#">Правовединие</a>
+                    <a href="#">Строительство</a>
+                    <a href="#">Обустройство</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn" class="disabled">Контакты <i class="arrow down"></i> </button>
+                <div class="dropdown-content"  style="right:0.5%; text-align: center;">
+                    <p style="text-align: left; font-size: 14px; padding-right: 10px">
+                        &nbsp; По всем вопросам <br> &nbsp; обращаться <br> &nbsp; к администратору <br> 
+                        &nbsp; деревенского сообщества</p>
+                    <a href="#" class="disabled"></a>
+                    <a href="#" class="disabled"></a>
+                    <a href="#" class="disabled"></a>
+                    <a href="#" class="disabled"></a>
+                    <a href="#" class="disabled"></a>
+                </div>
+            </div>
+        </nav>
+        <style> @import url(styles/nav_m.css);</style>
+        <div class="nav-mob">
+            <button class="accordion">ИНФОРМАЦИЯ</button>
+            <div class="menu">
+                <a href="#" class="x-disabled">
+                    <div class="navmob">Историческая справка</div>
+                </a>
+                    <div class="navmob">Окружение</div>
+                    <div class="navmob">Население</div>
+                    <div class="navmob">Карта онлайн</div>
+                    <div class="navmob">Вопрос - ответ</div>
+            </div>
+            <button class="accordion">НОВОСТИ</button>
+            <div class="menu">
+                <a href="#" class="x-disabled">
+                    <div class="navmob">Шиблино NEWS</div>
+                </a>
+                    <div class="navmob">Кимрские сплетни</div>
+                    <div class="navmob">Российский шум</div>
+                    <div class="navmob">Мировые проблемы</div>
+                    <div class="navmob">Отовсюду понемногу</div>
+            </div>
+        </div>
+        
+        <script src="scripts/nav_m.js"></script>
+        
+        <div class="blocks">
+            <style> @import url(styles/content.css); </style>
+            <div class="one">
+                <p  class="one-a">
+                    Приветствуем вас на сайте деревни Шиблино!<br>
+                    Добро пожаловать!
+                </p>
+                <p class="line-top"></p>
+                <p  class="one-b">
+                    Деревня Шиблино расположена в Устиновском сельском поселении Кимрского района Тверской области 
+                    на берегу живописной реки Малая Пудица.
+                </p>
+                <p class="line-top"></p>
+                <p  class="one-c">
+                    Этот сайт создан на безвозмездной основе трудом энтузиастов и за их счёт.
+                </p>
+                <p class="line-top"></p>
+             </div>
+            <div class="two"><a href="pages/content/one-a/index.html" title="Статья полностью"><h2>Тверская область</h2></a>
+                <p class="two-a">
+                    <img src="images/старица.jpg" alt="" class="fig3" title="Старицкий монастырь">
+                    Тверская область (с 1935 по 1990 год — Калининская область) — субъект Российской Федерации. 
+                    Входит в состав Центрального федерального округа, является частью Центрального экономического района.
+                    Тверская область — крупнейший регион Центральной России. Расположена в пределах Восточно-Европейской 
+                    равнины. Граничит с Московской, Ярославской, Вологодской, Новгородской, Смоленской и Псковской областями.
+                    В составе Российской империи и РСФСР до 1929 года существовала Тверская губерния. 29 января 1935 года 
+                    была образована Калининская область, с 1990 года область называется Тверской.... 
+                    &nbsp; <em><a href="file:///C:/D_part/web/project/22%2006%2021%20shiblino/pages/content/one-a/index.html">(читать полностью...)</a></em>
+                </p>
+                <p class="line-top"></p>
+                <a href="#"><h2>Тверь</h2></a>
+                <p class="two-b">
+                    <img src="images/тверь.jpg" alt="" class="fig1" title="Площадь Святого Благоверного Князя Михаила Тверского">
+                    Тверь  (с 1931 по 1990 год — Калинин) — город в России, административный центр Тверской области и Калининского района, в который не входит, являясь административно-территориальной единицей со статусом округа и городом областного значения, образующим одноимённое муниципальное образование городской округ город Тверь.
+                    Расположен на берегах реки Волги, в районе впадения в неё рек Тверцы и Тьмаки, в 177,6 км к северо-западу от Москвы.
+                    Тверь основана в 1135 году на стрелке реки Тьмаки. С 1247 года — центр Тверского княжества
+                </p>
+                <p class="line-top"></p>
+                <h2>Кимры</h2>
+                <p class="two-c">Третий блок</p>
+                <p class="line-top"></p>
+            </div>
+            <div class="three">
+                <h2>Кимрский район</h2>
+                <p class="three-a" id="three_a">
+                    <img src="images/район.png" alt="" class="fig2" title="Герб Кимрского района">
+                    Кимрский район образован 12 июля 1929 года в составе Кимрского округа Московской области.
+                    Площадь — 2514 км². Основные реки — Волга и Медведица с притоками Рудомошью, Малой Пудицей и 
+                    Большой Пудицей.
+                        <ul> Район граничит:
+                            <li>на севере — с Кашинским районом,</li>
+                            <li>на востоке — с Калязинским районом,</li>
+                            <li>на юге — с Московской областью, Талдомским городским округом и городским округом Дубна,</li>
+                            <li>на юго-западе — с Конаковским районом,</li>
+                            <li>на западе — с Калининским районом,</li>
+                            <li>на северо-западе — с Рамешковским районом.</li>
+                        </ul>
+                </p>                
+                <p class="line-top"></p>
+                <h2>Кимры</h2>
+                <p class="three-b">
+                    <img src="images/кимры мост.jpg" alt="" class="fig3" title="Мост через реку Волга">
+                </p>
+                <p class="line-top"></p>
+                <p class="three-c">3</p>
+                <p class="line-top"></p>
+            </div>
+            <div class="four">
+                <p class="four-a" id="four_a"></p>
+                <p class="line-top"></p>
+                <p class="four-b">2</p>
+                <p class="line-top"></p>
+                <p class="four-c">3</p>
+                <p class="line-top"></p>
+                <p class="four-d">4</p>
+                <p class="line-top"></p>
+                <p class="four-e">5</p>
+                <p class="line-top"></p>
+            </div>
+        </div>
+        <p class="updoun">
+            <style>@import url(styles/arrow.css);</style>
+                <a href="#" class="arrow-1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                </a>                 
+            </p>
+            <p class="end"> <a href="#">Наверх</a> </p> 
+        <footer>
+            <style>
+                @import url(styles/footer.css);
+            </style>
+
+            <p>
+                &nbsp; web is only 2022
+            </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+footer {
+    z-index: 1;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    color: rgb(252, 248, 248);
+    box-shadow: 5px 5px 20px 3px rgba(255, 255, 255, 0.9);
+    background-color: rgba(31, 146, 108, 0.4);
+}
+
+/*footer p {
+    background-color: green;
+    color: white;
+}*/

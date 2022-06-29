@@ -1,0 +1,77 @@
+.bhead {
+    /*display: none;*/
+    box-shadow: 7px 7px 20px 0px rgba(1, 1, 1, 0.5);
+    /*background-color: rgba(240, 240, 240, 0.400);*/
+    border:solid 0.1px rgb(197, 21, 21);
+    text-align: left;
+}
+.bhead div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.left {
+    width: 40%;
+    min-width:min-content;
+    font-family: 'Rubik';
+    font-size: 32px;
+    font-weight: 100;
+    color:rgba(7, 247, 255, 0.99);
+    /*margin: 0px 0% 0% 0%;*/
+    /*margin-left: 3%;*/
+    /*transform: translateY(-5%);*/
+    /*border:solid 0.1px white;*/
+    clear: both;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+.middle {
+    width: 30%;
+    /*margin: -2%;*/
+    /*border:solid 0.1px white;*/
+}
+.right {
+    /*max-width: 355px;*/
+}
+#shiblino {
+    font-family: 'Inter';
+    font-size: 42px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 6px;
+    border: solid 4px black;
+    border-radius: 20px;
+    padding: 1.25% 1.25% 1.25% 1.65%;
+    background-color: aliceblue;
+    /*box-shadow: 7px 7px 20px 0px rgba(1, 1, 1, 0.5);*/
+    opacity: 0.7;
+    /*max-width: max-content;*/
+}
+@media screen and (max-width: 800px) {
+    #shiblino{
+        margin-bottom: 30px;
+    }
+    .bhead {
+        /*display: inline-block;*/
+        width: 98%;
+        padding: 0;
+    }
+    .middle {
+        display: none;
+    }
+    .left {
+        width: 98%;
+        font-size: 25px;
+        margin-bottom: 3%;
+        padding: 0;
+        text-align: center;
+        margin-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .right {
+        margin: auto;
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

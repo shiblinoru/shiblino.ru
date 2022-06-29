@@ -1,0 +1,184 @@
+.blocks div {
+    display:inline-block; /* Делаем блоки по горизонтали */
+    background-color: rgba(1, 150, 10, 0.5);
+    vertical-align: top;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    text-align: left;
+    margin-left: 0px;
+}
+.blocks h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: rgb(200, 255, 118);
+    text-align: center;
+    margin-bottom: 0;
+}
+.one {
+    margin-top: 30px;
+    width: 14%;
+    height: auto;
+    position: sticky; top: 15px;
+    /*border: solid 0.1px white;*/
+    min-width: min-content;
+    margin-right: 1%;
+}
+@media screen and (max-width: 900px) {
+    div.one, div.four {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+    /*display: none;*/
+    min-width: 99%;
+    font-size: 17px;
+    }
+}
+.one p {
+    color: white;
+}
+.two {
+    /*margin-top: 20px;*/
+    margin-right: 1%;
+    margin-left: 0;
+    /*margin-bottom: 15px;*/
+    width: 37%;
+    height: auto;
+    /*border: solid 0.1px white;*/
+    min-width: min-content;
+}
+@media screen and (max-width: 900px) {
+    div.two, div.three {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*display: none;*/
+    min-width: 99%;
+    font-size: 17px;
+    }
+}
+
+.two p {
+    color: white;
+}
+.three {
+    /*margin-top: 20px;*/
+    margin-right: 1%;
+    width: 30%;
+    height: auto;
+    /*border: solid 0.1px white;*/
+}
+.three p {
+    color: white;
+}
+.four {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 1%;
+    width: 15%;
+    height: auto;
+    /*border: solid 0.1px white;*/
+    position: sticky; top: 35px;
+}
+.four p {
+    color: white;
+}
+.one-a {
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    /*border-bottom: solid 0.1px white;*/
+}
+.line-top {
+    border-top: solid rgb(200, 255, 118) 3px;
+    opacity: 0.4;
+    /*width: 90%;*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.one-b {
+    height: auto;
+    padding: 0px 10px 10px 10px;
+}
+.one-c {
+    padding: 10px 10px 10px 10px;
+    height: auto;
+}
+.two-a {
+    padding: 0px 10px 0px 10px;
+    height: auto;
+}
+.two-b {
+    padding: 0px 10px 0px 10px;
+    height: auto;
+}
+.two-c {
+    padding: 0px 10px 0px 10px;
+    height: auto;
+}
+.three-a {
+    padding: 0px 10px 0px 10px;
+    height: auto;
+}
+.three-b {
+    padding: 0px 10px 10px 10px;
+    height: 50%;
+}
+.three-c {
+    padding: 0px 10px 10px 10px;
+    height: auto;
+}
+.four-a {
+    padding: 10px 10px 10px 10px;
+    height: auto;
+}
+.four-b {
+    padding: 10px 10px 10px 10px;
+    height: 20%;
+}
+.four-c {
+    padding: 10px 10px 10px 10px;
+    height: auto;
+}
+.four-d {
+    padding: 10px 10px 10px 10px;
+    height: auto;
+}
+.four-e {
+    padding: 10px 10px 10px 10px;
+    height: auto;
+}
+.fig1 {
+    /*margin-top: -50px;*/
+    width: 70%;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+/*embed {
+    font-size: 15px;
+    width: 200px;
+    color: aliceblue;
+}*/
+.fig2 {
+    /*margin-top: -50px;*/
+    width: 60%;
+    float: right;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+}
+.fig3 {
+    /*margin-top: -50px;*/
+    width: 99%;
+    /*float: left;*/
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    padding-bottom: 0px;
+}
+
+ul {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0;
+}

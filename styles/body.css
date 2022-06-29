@@ -1,0 +1,13 @@
+body {
+    background-image: url(../images/трава3-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    /*background-color: rgba(153, 158, 182, 0.863);*/
+    width: 99%;
+    /*background-position: center;*/
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 0.1px 0px 0px 0px;
+    scroll-behavior: smooth;
+    text-align: center;
+}

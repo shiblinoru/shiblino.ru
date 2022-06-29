@@ -1,0 +1,178 @@
+nav {
+    animation-name: slidein; /*выезд меню*/
+    animation-duration: 1000ms;/*время выезда меню*/
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    scroll-behavior: smooth;
+    /*padding-top: 7px;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.4px;
+    background-color: rgba(1, 150, 10, 0.5);
+    /*border: 0.1px solid white;*/
+    box-shadow: 5px 5px 20px 3px rgba(255, 255, 255, 0.9);
+    /*position: sticky;*/
+    z-index: 1;
+    /*overflow-x:auto;*/
+    /*white-space: nowrap;*/
+    /*height: 50px;*/
+    max-height: min-content;
+}
+@media screen and (max-width: 1000px) {
+    nav {
+    display:none;
+    }
+}
+.home {
+    display: inline-block;
+    vertical-align: middle;
+    /*float: left;*/
+    padding: 0% 0% 0% 0%;
+    width: 25px;
+    /*margin-bottom: 0.5px;*/
+    opacity: 0.7;
+    /*border: 0.1px solid white;*/
+    margin: 0% 2% 0.7% 0%;
+}
+/*аннимация выезда меню*/
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+/*ВЫПАДАЮЩЕЕ МЕНЮ НАЧАЛО*/
+.dropbtn {
+    background-color: rgba(15, 192, 162, 0.0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    color: white;
+    margin-right: 30px;
+    /*border: solid 0.1px white;*/
+    border: none;
+}
+.burger-top {
+    background-color: rgba(15, 192, 162, 0.0);
+    /*font-family: 'Inter', sans-serif;*/
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    color: white;
+    margin-right: 1.5%;
+    /*border: solid 0.1px white;*/
+    width: 5%;
+    border: none;
+    cursor: pointer;
+}
+.dropdown { /*кнопки меню*/
+    display: inline-block;
+    height: 30px;
+    padding-top: 11px;
+    /*border: solid 0.1px white;*/
+    /*position: relative;*/
+    /*overflow-y: none;*/
+    /*margin: 15px 1px 1px 3px;*/
+    /*margin-bottom: 5px;
+    margin-top: 5px;*/
+}
+/*.dropdown div {
+    display: inline-block;
+    vertical-align: middle;
+}*/
+.dropdown-content {/*выпадающее меню*/
+    position: absolute;
+    background-color: rgba(1, 150, 10, 0.5);
+    /*width: 18%; /*max-content; /*ширина меню*/
+    min-width: max-content; /*ширина выпадающего меню*/
+    box-shadow: 5px 5px 20px 1px rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    /*задан тип трансформации*/
+    transform: scaleY(0);
+    /*позиция начала трансформации. в данном случае при значении "0" "0" по осям X и Y
+    она начинается от нижнего края родительского объекта*/
+    transform-origin: 0px 0px;
+    transition: 0.3s ease-in-out;
+    overflow:visible;
+    /*border: solid 0.1px white;*/
+    margin-top: 6px;
+}
+.dropdown-content a {
+    font-size: 15px;
+    color: white;
+    padding: 10px 20px 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 1;
+    /*проявление фона выделенного контекстного меню*/
+    transition: 0.6s padding;
+    transition:  0.6s background;
+}
+.dropdown-content a:hover {/*цвет выделения выпадающих ссылок*/
+    /*background-color: rgba(212, 212, 212, 0.281);*/
+    background-color: rgba(240, 240, 240, 0.800);
+    color:navy; /*изменение цвета текста*/
+    box-shadow: 5px 5px 20px 3px rgba(255, 255, 255, 0.9);
+}
+.dropdown:hover .dropdown-content {/*команда для появления меню при наведении*/
+    display: block;
+    /*эффект трансформации включить*/
+    transform: scaleY(1);
+
+}
+
+.dropdown:hover .dropbtn {/*оформление кнопки*/
+    /*background-color: rgba(15, 192, 162, 0.4);*/
+    color: navy;
+    
+}
+
+/*ВЫПАДАЮЩЕЕ МЕНЮ КОНЕЦ*/
+  
+a {
+    color: whitesmoke; /* Цвет текста ссылок */
+    text-decoration: none; /* Отключение подчёркивания ссылок */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;/*размер шрифта ссылок*/
+    color: aliceblue;
+}
+
+a.disabled {/*деактивация ссылок*/
+    pointer-events: none;
+    cursor: default;
+    color: rgb(221, 221, 221);
+}
+
+i { /*стрелка справа от заголовка меню начало*/
+    border: solid white;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 4px;
+    /*margin-left: 3px;*/
+    margin-bottom: 3.0px;
+    margin-left: 2px;
+    transition: 0.1s;
+    opacity: 0.8;
+  }
+  .down { 
+    transform: rotate(45deg);
+    /*-webkit-transform: rotate(45deg);*/
+}
+.dropdown:hover .dropbtn i{
+    opacity: 0;
+}

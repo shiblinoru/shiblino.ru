@@ -1,0 +1,97 @@
+.blocks div {
+    display:inline-block; /* Делаем блоки по горизонтали */
+    background-color: rgba(31, 146, 108, 0.6);
+    vertical-align: top;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    /*box-shadow: 7px 7px 20px 0px rgba(1, 1, 1, 0.5);*/
+    /*text-align: center;*/
+    /*display: -moz-inline-stack; /* Для FireFox 2, тот же самый, что и inline-block */
+    /*vertical-align:top; /* Выравниваем их сверху */
+    /*font-size:16px; /* Ставим дочкам размер шрифта, иначе примет значение родителя */
+    /* Для IE 6 и IE 7 чтобы блоки были по горизонтали*/
+    /*zoom: 1;*/
+    /*display: inline;*/
+}
+.blocks h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: rgb(200, 255, 118);
+    text-align: center;
+}
+.one {
+    margin-top: 30px;
+    /*margin-left: 0px;*/
+    /*margin-right: 0px;*/
+    width: 13%;
+    height: auto;
+    position: sticky; top: 5px;
+    /*border: solid 0.1px white;*/
+}
+.one p {
+    color: white;
+}
+.two {
+    /*padding: 0;*/
+    /*margin-top: 20px;*/
+    /*margin-right: auto;*/
+    margin-left: 15px;
+    /*margin-bottom: 15px;*/
+    width: 85.5%;
+    /*height: auto;*/
+    /*border: solid 0.1px white;*/
+}
+.two p {
+    color: white;
+}
+.one-a {
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    /*border-bottom: solid 0.1px white;*/
+}
+.line-top {
+    border-top: solid rgb(200, 255, 118) 3px;
+    opacity: 0.4;
+    /*width: 90%;*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.one-b {
+    height: auto;
+    padding: 0px 10px 10px 10px;
+}
+.one-c {
+    padding: 10px 10px 10px 10px;
+    height: auto;
+}
+.two-a{
+    padding: 10px 0px 10px 20px;
+    /*margin-right: 10px;*/
+    height: auto;
+    /*margin-top: 10PX;*/
+    /*border: solid white;*/
+}
+.fig1 {
+    width: 600px;
+    float: left;
+    padding: 15px 15px 5px 0px;
+}
+/*h2 {
+    text-align: center;
+    color: greenyellow;
+}*/
+h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    /*margin: -15px 0px -15px 0px;*/
+    letter-spacing: 1px;
+    text-decoration: underline white 1px;
+    margin-left: 20px;
+}
+.updoun {
+    text-align: center;
+    color: rgb(200, 255, 118);
+}

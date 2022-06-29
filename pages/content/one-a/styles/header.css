@@ -1,0 +1,15 @@
+header {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    color: black;
+    text-align: center;
+    letter-spacing: 0.4px;  
+    padding-top: 12px;
+    /*position: fixed;*/
+    background-color: rgba(240, 240, 240, 0.400);
+    height: 30px;
+    box-shadow: 7px 7px 20px 0px rgba(1, 1, 1, 0.938);
+}   
