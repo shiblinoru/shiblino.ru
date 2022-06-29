@@ -30,7 +30,7 @@
 }
 /* Раскрывающееся меню */
 .accordion {
-    background-color: rgba(1, 150, 10, 0.5);
+    background-color: rgba(1, 150, 10, 0.7);
     font-family: 'Inter';
     font-size: 28px;
     color: white;
