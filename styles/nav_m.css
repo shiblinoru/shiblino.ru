@@ -56,12 +56,12 @@
     margin-right: 15%;
     margin-left: 5%;
 }
-button {
+/*button {
     transition: 1.5s background;
 }
 button:hover {
     background-color: rgb(208, 32, 144, 0.5);
-}
+}*/
 
 .active:after {
     content: "✖";
