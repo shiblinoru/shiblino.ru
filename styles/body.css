@@ -11,3 +11,8 @@ body {
     scroll-behavior: smooth;
     text-align: center;
 }
+@media screen and (max-width: 1000px) {
+    body {
+        background-image: url(../images/трава3-2.jpg);
+    }
+}
