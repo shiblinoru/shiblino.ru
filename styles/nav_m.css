@@ -58,11 +58,11 @@ button:hover {
 
 .active:after {
     height: 100%;
-    content: "✖";
-    background-color: rgb(208, 32, 144, 0.5);
+    content: "✕";
+    /*background-color: rgb(208, 32, 144, 0.5);*/
     /*float: left;*/
     padding: 0%;
-    border: 0.1px solid white;
+    /*border: 0.1px solid white;*/
 }
 
 .menu {
