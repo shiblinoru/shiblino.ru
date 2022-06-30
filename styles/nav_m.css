@@ -6,27 +6,21 @@
 
 @media screen and (max-width: 1000px) {
 .nav-mob {
-    /*margin-bottom: 5px;*/
-    margin-top: 10px;
+    margin-top: 3%;
     }
 }
 .navmob {
-    /*display: block;*/
     width: 90%;
     font-family: 'Inter';
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     text-align: center;
-    /*padding-left: 20%;*/
-    /*height: 17%;*/
-    /*background-color: rgba(1, 150, 10, 0.5);*/
     /*border: 0.1px solid white;*/
     border-radius: 10px;
     padding-top: 3%;
     padding-bottom: 3%;
     /*box-shadow: 5px 5px 20px 3px rgba(255, 255, 255, 0.9);*/
-    /*overflow-x:auto;*/
-    /*white-space: nowrap;*/
+    margin-bottom: 0.5%;
 }
 /* Раскрывающееся меню */
 .accordion {
@@ -45,43 +39,47 @@
     outline: none;
     font-size: 20px;
     transition: 0.4s;
-    margin-top: 1px;
+    margin-bottom: 00.5%;
 }
 .accordion:after {
     content: '☰';
     color: white;
-    /*font-weight: bold;*/
     float: left;
-    /*position: relative;*/
     margin-right: 15%;
     margin-left: 5%;
+    /*border: 0.1px solid white;*/
 }
 /*button {
-    transition: 1.5s background;
+    background-color: rgba(1, 150, 10, 0.5);
 }
 button:hover {
     background-color: rgb(208, 32, 144, 0.5);
 }*/
 
 .active:after {
+    height: 100%;
     content: "✖";
+    background-color: rgb(208, 32, 144, 0.5);
+    /*float: left;*/
+    padding: 0%;
+    border: 0.1px solid white;
 }
 
 .menu {
-    width: 100%;
+    /*width: 95%;*/
     text-align: center;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-out;
+    margin-bottom: 00.5%;
 }
 .menu div {
     display: inline-block;
-    font-size: 18px;
-    width: 95%;
+    font-size: 20px;
+    width: 92%;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
-    margin-left: 5%;
-    margin-top: 1px;
+    margin-left: 6%;
     background-color: rgb(208, 32, 144, 0.5);
 }
