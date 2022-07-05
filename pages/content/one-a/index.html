@@ -3,22 +3,44 @@
     <head>       
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="../../../styles/style.css">
         <title>Шиблино 27.06.2022</title>
         <link rel="shortcut icon" href="icons/favicon-home2.png" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css?family=Overpass|Open+Sans|Inter|Pacifico|Rubik|Nunito+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Overpass|Open+Sans|Inter|Pacifico|Rubik|Nunito+Sans|
+                    Neucha|Ruslan+Display" rel="stylesheet">
     </head>    
     <body>
         <style>
-            @import url(styles/body.css);
-        </style>               
+            @import url(../../../styles/body.css);
+        </style>
+        <header></header>
+        <header></header>
+        <style> @import url(../../../styles/header.css);
+                @media screen and (min-width: 1000px) {
+                    .bhead {
+                        display:none;
+                    }
+                }
+        </style>
+        <div class="bhead">
+            <div class="left">Добро пожаловать на информационный портал деревни</div>
+            <div class="middle"></div>
+            <div class="right">
+                <a href="../../../index.html">
+                    <div  class="shiblino">ШИБЛИНО</div>
+                </a>
+            </div>
+        </div>              
         <nav>
             <style>
-                @import url(styles/nav.css);
+                @import url(../../../styles/nav.css);
+                nav { 
+                    margin-top: 0;
+                }
             </style>
-            <a href="../../../index.html" class="home" title="Начальная страница">
-                <img src="icons/favicon-home4.png" alt="" class="home">
-            </a>    
+            <a href="../../../index.html" title="НАЧАЛЬНАЯ СТРАНИЦА">
+                 <button class="burger-top">🏠</button>
+             </a>
             <div class="dropdown">
                 <button class="dropbtn"> Информация <i class="arrow down"></i> </button>
                 <div class="dropdown-content">
@@ -99,8 +121,11 @@
             </div>
             <div class="dropdown">
                 <button class="dropbtn">Контакты <i class="arrow down"></i> </button>
-                <div class="dropdown-content">
-                    <p align="left">&nbsp; По всем вопросам <br> обращаться <br> к администратору <br> деревенского сообщества</p>
+                <div class="dropdown-content"  style="right:0.5%; text-align: center;">
+                    <p style="text-align: left; font-size: 14px; padding-right: 10px">
+                        &nbsp; По всем вопросам <br> &nbsp; обращаться <br> &nbsp; к администратору <br> 
+                        &nbsp; деревенского сообщества
+                    </p>
                     <a href="#"></a>
                     <a href="#"></a>
                     <a href="#"></a>
@@ -109,7 +134,150 @@
                 </div>
             </div>
         </nav>
-        <!--div> <img src="images/shi.jpg" alt="" class="shi"> </div-->
+        <style> @import url(../../../styles/nav_m.css);</style>
+        <div class="nav-mob">
+            <button class="accordion">ИНФОРМАЦИЯ</button>
+            <div class="menu">
+                <a href="#" class="disabled">
+                    <div class="navmob">Историческая справка</div>
+                </a>
+                    <div class="navmob">Окружение</div>
+                    <div class="navmob">Население</div>
+                    <div class="navmob">Карта онлайн</div>
+                    <div class="navmob">Вопрос - ответ</div>
+            </div>
+            <button class="accordion">НОВОСТИ</button>
+            <div class="menu">
+                <a href="#" class="x-disabled">
+                    <div class="navmob">Шиблино NEWS</div>
+                </a>
+                    <div class="navmob">Кимрские сплетни</div>
+                    <div class="navmob">Российский шум</div>
+                    <div class="navmob">Мировые проблемы</div>
+                    <div class="navmob">Отовсюду понемногу</div>
+            </div>
+            <button class="accordion">ПРИРОДА</button>
+            <div class="menu">
+                <a href="#" class="disabled">
+                    <div class="navmob">Ближайшее соседство</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Флора растения вокруг</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Фауна местные обитатели</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Климатические особенности</div>
+                </a>
+            </div>
+            <button class="accordion">САДОВОДСТВО</button>
+            <div class="menu">
+                <a href="#" class="disabled">
+                    <div class="navmob">Кустарники ягодные</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Деревья плодовые</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Овощные грядки</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Тепличные дела</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Инсрументы</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Личный опыт</div>
+                </a>
+            </div>
+            <button class="accordion">ФОТОГАЛЕРЕЯ</button>
+            <div class="menu">
+                <a href="#" class="disabled">
+                    <div class="navmob">Пейзажи</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Времена года</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Изображения в лицах</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Деревенские будни</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Не верь глазам своим</div>
+                </a>
+            </div>
+            <button class="accordion">ЭКОЛОГИЯ</button>
+            <div class="menu">
+                <a href="#" class="disabled">
+                    <div class="navmob">Бытовые отходы</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Сжигание мусора</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Природопользование</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Охрана природы</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Убывающее плодородие</div>
+                </a>
+            </div>
+            <button class="accordion">ПОЛЕЗНЫЕ РЕСУРСЫ</button>
+            <div class="menu">
+                <a href="#" class="disabled">
+                    <div class="navmob">Медицина и лекарства</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Сельсовет Устиново</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Электросети</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Газовые сети</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Транспорт</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Почта РФ</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Администрация района</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Строительство</div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob">Обустройство</div>
+                </a>
+            </div>
+            <button class="accordion">КОНТАКТЫ</button>
+            <div class="menu">
+                <a href="#" class="disabled">
+                    <div class="navmob">
+                        По всем вопросам обращаться <br> к администратору <br>
+                        деревенского сообщества
+                    </div>
+                </a>
+                <!--a href="#" class="disabled">
+                    <div class="navmob"></div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob"></div>
+                </a>
+                <a href="#" class="disabled">
+                    <div class="navmob"></div>
+                </a-->
+            </div>    
+        </div>        
+        <script src="scripts/nav_m.js"></script>
         <div class="body blocks">
             <style> @import url(styles/content.css); </style>
             <div class="one">
@@ -137,7 +305,7 @@
                     Центрального экономического района. Тверская область — крупнейший регион Центральной России. 
                     Расположена в пределах Восточно-Европейской равнины. Граничит с Московской, Ярославской, 
                     Вологодской, Новгородской, Смоленской и Псковской областями. 
-                    <img src="images/старица.jpg" alt="" class="fig1"> 
+                    <img src="../../../images/старица.jpg" alt="" class="fig1"> 
                     В составе Российской империи и РСФСР до 1929 года существовала Тверская губерния. 29 января 
                     1935 года была образована Калининская область, с 1990 года область называется Тверской. 
                     Административный центр и крупнейший город — Тверь.
@@ -183,7 +351,7 @@
                     области входит 23 города, 30 посёлков городского типа.
                 </p>
                 <p class="updoun">
-                <style>@import url(styles/arrow.css);</style>
+                <style>@import url(../../../styles/arrow.css);</style>
                     <a href="#" class="arrow-1">
                             <span></span>
                             <span></span>
@@ -197,7 +365,7 @@
     </body>
     <footer>
         <style>
-            @import url(styles/footer.css);
+            @import url(../../../styles/footer.css);
         </style>
         <p>&nbsp; web is only 2022</p>
     </footer>
