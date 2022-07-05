@@ -1,17 +1,10 @@
-.blocks div {
+﻿.blocks div {
     display:inline-block; /* Делаем блоки по горизонтали */
-    background-color: rgba(31, 146, 108, 0.6);
+    background-color: rgba(1, 150, 10, 0.5);
     vertical-align: top;
     font-family: 'Open Sans';
     font-size: 15px;
-    /*box-shadow: 7px 7px 20px 0px rgba(1, 1, 1, 0.5);*/
-    /*text-align: center;*/
-    /*display: -moz-inline-stack; /* Для FireFox 2, тот же самый, что и inline-block */
-    /*vertical-align:top; /* Выравниваем их сверху */
-    /*font-size:16px; /* Ставим дочкам размер шрифта, иначе примет значение родителя */
-    /* Для IE 6 и IE 7 чтобы блоки были по горизонтали*/
-    /*zoom: 1;*/
-    /*display: inline;*/
+    text-align: left;
 }
 .blocks h2 {
     font-family: 'Open Sans', sans-serif;
@@ -19,31 +12,51 @@
     font-weight: 300;
     color: rgb(200, 255, 118);
     text-align: center;
+    margin-bottom: 0;
 }
 .one {
     margin-top: 30px;
-    /*margin-left: 0px;*/
-    /*margin-right: 0px;*/
-    width: 13%;
+    width: 14%;
     height: auto;
-    position: sticky; top: 5px;
+    position: sticky; top: 15px;
     /*border: solid 0.1px white;*/
+    min-width: min-content;
+    margin-right: 1%;
 }
 .one p {
     color: white;
+}
+@media screen and (max-width: 900px) {
+    div.one, div.four {
+    /*position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;*/
+    display: none;
+    /*min-width: 99%;
+    font-size: 17px;*/
+    }
 }
 .two {
     /*padding: 0;*/
     /*margin-top: 20px;*/
     /*margin-right: auto;*/
-    margin-left: 15px;
     /*margin-bottom: 15px;*/
-    width: 85.5%;
+    width: 84%;
     /*height: auto;*/
     /*border: solid 0.1px white;*/
 }
 .two p {
     color: white;
+}
+@media screen and (max-width: 900px) {
+    div.two, div.three {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*display: none;*/
+    min-width: 99%;
+    font-size: 17px;
+    }
 }
 .one-a {
     height: auto;
@@ -72,10 +85,15 @@
     /*margin-top: 10PX;*/
     /*border: solid white;*/
 }
-.fig1 {
+.fig1, .fig2, .fig3 {
     width: 600px;
     float: left;
     padding: 15px 15px 5px 0px;
+}
+@media screen and (max-width: 900px) {
+    .fig1 {
+        width: 99%;
+    }
 }
 /*h2 {
     text-align: center;
