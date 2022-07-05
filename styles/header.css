@@ -10,12 +10,12 @@
     vertical-align: middle;
 }
 .left {
-    width: 40%;
+    width: 45%;
     /*min-width:min-content;*/
     font-family: 'Rubik';
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 100;
-    color:rgba(7, 247, 255, 0.99);
+    color:rgba(208, 32, 144, 0.99);
     /*margin: 0px 0% 0% 0%;*/
     /*margin-left: 3%;*/
     /*transform: translateY(-5%);*/
@@ -26,7 +26,7 @@
     margin-left: 5%;
 }
 .middle {
-    width: 25%;
+    width: 20%;
     /*height: 150px;*/
     margin: 0;
     /*border:solid 0.1px blue;*/

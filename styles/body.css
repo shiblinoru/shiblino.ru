@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/трава3-1.jpg);
+    background-image: url(../images/трава2-2.jpg);
     background-attachment: fixed;
     background-size: cover;
     /*background-color: rgba(153, 158, 182, 0.863);*/
@@ -13,6 +13,6 @@ body {
 }
 @media screen and (max-width: 1000px) {
     body {
-        background-image: url(../images/трава3-2.jpg);
+        background-image: url(../images/трава2-2.jpg);
     }
 }
